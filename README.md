@@ -1,1 +1,1 @@
-loja-diego.github.io
+LOJA
