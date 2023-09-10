@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto à Venda</title>
+    <style>
+    /* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para o título principal */
+h1 {
+    margin: 0;
+}
+
+/* Estilo para a seção do produto */
+#produto {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Estilo para o botão "Adicionar ao Carrinho" */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Produto à Venda</h1>
+    </header>
+    <main>
+        <section id="produto">
+            <h2>Camisa</h2>
+            <img src="6e5e5ce0774dff780f944fc481825dd7.jpg" alt="Imagem da Camisa">
+            <p>Camisa simples.</p>
+            <p>Preço: R$ 59,99</p>
+            padding: 20px;
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Loja de Diego</p>
+    </footer>
+
+    <script>
+        function adicionarAoCarrinho() {
+            alert('Produto adicionado ao carrinho!');
+         
+        }
+    </script>
+</body>
+
+
+
+</html>
